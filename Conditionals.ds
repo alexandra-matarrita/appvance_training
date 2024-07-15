@@ -26,7 +26,15 @@
         <accessor type='unknown' value='var1' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bdacc17c-6178-43b8-a0fa-f53dcf8fe4bb' uiType='end' sibling='73eb7a09-ff34-4ff2-913c-5850496620e0'>
+    <step action='else' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bdacc17c-6178-43b8-a0fa-f53dcf8fe4bb' uiType='conditional'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='store' value='false' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='1' isVisible='true' parentId='' uid='ac34645d-b8da-4990-80ad-8596b1880946' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='value2' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7d7ca4cd-1a27-4212-8688-b57c67ce9f11' uiType='end' sibling='bdacc17c-6178-43b8-a0fa-f53dcf8fe4bb'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='log' value='value1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='134f781e-1193-4e1c-95e8-63294defb52e' uiType='base'>
