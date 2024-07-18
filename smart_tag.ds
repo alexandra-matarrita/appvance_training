@@ -3,7 +3,10 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
-    <step action='addSmartTagsLibrary' value='"{ds}/example_smart_tags.stags"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='626f0f86-a917-469d-90df-32881fc289a3' uiType='base'>
+    <step action='addSmartTagsLibrary' value='"{ds}/example2_smart_tag.stags"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='626f0f86-a917-469d-90df-32881fc289a3' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='79d82a41-3fd5-46b9-b16b-07b47a41d49f' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
   </testcase>
