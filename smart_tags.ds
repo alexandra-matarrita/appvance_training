@@ -7,9 +7,7 @@
       <dialect type='sahi'></dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e67de5fa-aecd-4226-a34c-499625f8de00' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='43a29130-3d49-416e-9422-ceb365616370' uiType='base'>
       <dialect type='sahi'>
